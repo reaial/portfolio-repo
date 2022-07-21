@@ -57,6 +57,18 @@ table {
 /* MY CODE */
 
 /* the style of this webiste will be earth tones,so i'll pull from mostly browns and greens as it advances ill make it so that its white and the picutures are the color*/
+/* start of nav styling */
+
+header a
+{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #222;
+	line-height: 55px;
+	padding: 0px 20px;
+
+}
 nav
 {
 	width: 100%;
@@ -67,25 +79,50 @@ nav ul
 {
 		float: left;
 }
-/* p {
-	font-family: sans-serif;
-	font-size: 14px;
-	color: #222;
-	line-height: 55px;
-	padding: 0px 20px;
-} ADD THIS BACK WHEN YOU ADD THE LOGO*/
 
 nav ul li
 {
 float:left;
 list-style: none;
+position: relative;
 }
 
 
 nav ul li a
 {
 	display: block;
+	text-decoration: none;
   font-family: sans-serif;
 	font-size: 16px;
 	padding: 22px 14px;
 }
+
+nav ul li ul
+{
+	display: none;
+	position: absolute;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul
+{
+	display: block;
+}
+
+nav ul li ul li
+{
+ width: 100x;
+ border-radius: 4px;
+}
+
+nav ul li ul li a
+{
+	padding: 8px 12px;
+}
+nav ul li ul li a:hover
+{
+	padding: 8x 12px;
+	background-color: tan;
+}
+/* end of nav styling*/
