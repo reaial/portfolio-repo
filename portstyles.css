@@ -76,6 +76,7 @@ header
 	font-size: 14px;
 	width: 100%;
 	height: 100px;
+	background-color: #ddb892;
 
 }
 header .header-brand
@@ -103,38 +104,48 @@ a
 
  nav
 {
-	width: 50%;
+	width: 100%;
 	height: 60px;
-	background-color: #ddb892;
 }
 
 header nav ul
 {
 		float: left;
+		display: block;
+		margin: 0 auto;
+		width: fit-content;
 }
 
  header nav ul li
 {
 float:left;
 list-style: none;
-position: left;
+position: center;
 } /* how do you get it so that the nav is set to the middle of the screen? */
 
  header nav ul li a
 {
-	display: center;
+	display: inline-block;
 	text-decoration: none;
   font-family: sans-serif;
 	font-size: 16px;
-	padding: 22px 14px;
+
 }
 
+	header nav ul a:hover
+	{
+		padding: 8x 12px;
+		background-color: #7b9e89;
+	}
+
+
+/* This is code that you will need eventually to fix the drop down menu, but you don't need to keep wasting time on it.
 nav ul li ul
 {
 	display: none;
 	position: absolute;
-	padding: 10px;
-	border-radius: 0px 0px 4px 4px;
+	padding: 8px 12px 250px 250px;
+	/*border-radius: 0px 0px 100px 100px;
 }
 
 nav ul li:hover ul
@@ -150,11 +161,21 @@ nav ul li:hover ul
 
 nav ul li ul li a
 {
-	padding: 8px 12px;
+	padding: 8px 12px 10px 10px;
+	position:center;
 }
  nav ul li ul li a:hover
 {
 	padding: 8x 12px;
 	background-color: tan;
-}
+} */
 /* end of nav styling*/
+
+/* Home Styling */
+
+ .home-banner
+{
+ width: 100%;
+ height: 100vh;
+ background-image: url();
+}
