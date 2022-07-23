@@ -110,6 +110,7 @@ a
 {
 	width: 100%;
 	height: 60px;
+
 }
 
 header nav ul
@@ -183,8 +184,26 @@ nav ul li ul li a
  height: 100vh;
  /*background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
  position:relative;*/
- padding:0 5%;
+ padding:0 50% 30% 30%;
  display:flex;
  align-items:center;
  justify-content:center;
 }
+.home a
+{
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 14px 17px;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+/*nav
+{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 20px 8%;
+
+}*/
