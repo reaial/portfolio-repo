@@ -233,6 +233,30 @@ padding-left: 140px;
  border: 10px solid #e6ccb2;
 }
 
+.image .txt
+{
+	position: relative;
+	width: 400px;
+	height:200px;
+	margin: 240px auto;
+	background-color: #7b9e89;
+}
+
+.image .txt .box
+{
+	position: relative;
+	width: 400;
+	height: 600;
+	background: 000;
+	float: left;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+
+
 /* end of about me */
 
 /* beginning of video */
