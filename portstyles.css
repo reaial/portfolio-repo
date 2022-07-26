@@ -113,7 +113,7 @@ position: center;
 
 /* Home Styling */
 
-.hero
+.nav
 {
  width: 100%;
  height: 100vh;
@@ -156,7 +156,7 @@ nav ul a:hover
 	background-color: #7b9e89;
 }
 
-.hero a
+.nav a
 {
 	display: inline-block;
 	color: #fff;
@@ -210,3 +210,95 @@ nav ul a:hover
 {
 	text-align: center;
 }
+
+.image
+{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fff;
+/*padding-top: 100px;*/
+padding-left: 140px;
+
+/*this will create a circle for your images, this image will be stand still, copy this code and figure out how to create a cross dissolve for your photos*/
+}
+
+.image img
+{
+ width: 100px;
+ height: 100px;
+ border-radius:50%;
+ border: 10px solid #e6ccb2;
+}
+
+/* end of about me */
+
+/* beginning of video */
+
+.content3 h1
+{
+	font-size: 100px;
+	color: #fff;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.content3
+{
+	text-align: center;
+}
+
+/* end of video*/
+
+/* beginning of photo */
+
+.content4 h1
+{
+	font-size: 100px;
+	color: #fff;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.content4
+{
+	text-align: center;
+}
+
+/* end of photo */
+
+/* beginning of web development */
+
+.content5 h1
+{
+	font-size: 100px;
+	color: #fff;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.content5
+{
+	text-align: center;
+}
+
+/* end of web development */
+
+/* beginning of graphic design */
+
+.content6 h1
+{
+	font-size: 100px;
+	color: #fff;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.content6
+{
+	text-align: center;
+}
+
+/* end of graphic design */
