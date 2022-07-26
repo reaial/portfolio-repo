@@ -261,7 +261,7 @@ padding-left: 140px;
  font-size: 20px;
 } /* all I wanted was to adjust size */
 
-.image .txt .box .cover
+/*.image .txt .box .cover
 {
 	position: absolute;
 	top: 0;
@@ -279,7 +279,7 @@ padding-left: 140px;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-}
+}  leaving this here for when you figure out the hover feature*/
 
 
 /* end of about me */
@@ -315,6 +315,57 @@ padding-left: 140px;
 {
 	text-align: center;
 }
+
+.photos
+{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fff;
+/*padding-top: 100px;*/
+padding-left: 40px;
+padding-bottom: 160px;
+
+/*this will create a circle for your images, this image will be stand still, copy this code and figure out how to create a cross dissolve for your photos*/
+}
+
+.photos img
+{
+ width: 400px;
+ height: 400px;
+ border-radius:50%;
+ border: 10px solid #e6ccb2;
+}
+
+.photos .txt2
+{
+	position: relative;
+	width: 350px;
+	height:175px;
+	left: 160px; /* this call shifted more to the right */
+	margin: 240px auto;
+	background-color: #7b9e89;
+}
+
+.photos .txt2 .box2
+{
+	position: relative;
+	width: 400;
+	height: 600;
+	background: 000;
+	float: left;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.photos .txt2 .box2 p
+{
+ font-size: 20px;
+} /* all I wanted was to adjust size */
 
 /* end of photo */
 
