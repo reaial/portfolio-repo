@@ -202,7 +202,7 @@ nav ul a:hover
 {
 	font-size: 100px;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 300;
 	font-style: italic;
 }
 
@@ -236,8 +236,9 @@ padding-left: 140px;
 .image .txt
 {
 	position: relative;
-	width: 400px;
-	height:200px;
+	width: 450px;
+	height:250px;
+	left: 160px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
 }
@@ -255,6 +256,30 @@ padding-left: 140px;
 	border-radius: 10px;
 }
 
+.image .txt .box p
+{
+ font-size: 20px;
+} /* all I wanted was to adjust size */
+
+.image .txt .box .cover
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #7b9e89;
+	transition: 0.5s;
+	z-index: 1;
+}
+.image .txt .box:hover .cover
+{
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
 
 
 /* end of about me */
@@ -265,7 +290,7 @@ padding-left: 140px;
 {
 	font-size: 100px;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 300;
 	font-style: italic;
 }
 
@@ -282,7 +307,7 @@ padding-left: 140px;
 {
 	font-size: 100px;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 300;
 	font-style: italic;
 }
 
@@ -299,7 +324,7 @@ padding-left: 140px;
 {
 	font-size: 100px;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 300;
 	font-style: italic;
 }
 
@@ -316,7 +341,7 @@ padding-left: 140px;
 {
 	font-size: 100px;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 300;
 	font-style: italic;
 }
 
