@@ -411,30 +411,38 @@ padding-bottom: 160px;
 	justify-content: center;
 }
 
-#trial1 img
+
+.wb1 img
+{
+
+	left: 150px;
+	top:0px;
+
+/* you have to go in and style each of these to certain positions on the screen*/
+}
+
+.wb2 img
 {
  /* you have to go in and style each of these to certain positions on the screen*/
 }
 
-#trial2 img
-{
- /* you have to go in and style each of these to certain positions on the screen*/
-}
-#trial3 img
-{
- /* you have to go in and style each of these to certain positions on the screen*/
-}
-#trial4 img
+.wb3 img
 {
  /* you have to go in and style each of these to certain positions on the screen*/
 }
 
-#trial5 img
+.wb4 img
 {
  /* you have to go in and style each of these to certain positions on the screen*/
 }
 
-/* add after you put PDF into repo #trial6 img
+.wb5 img
+{
+ /* you have to go in and style each of these to certain positions on the screen*/
+}
+
+
+/* add after you put PDF into repo .wb6 img
 {
  /* you have to go in and style each of these to certain positions on the screen
 }*/
