@@ -402,4 +402,48 @@ padding-bottom: 160px;
 	text-align: center;
 }
 
+.design-container
+{
+	width: 90%;
+	height: fit-content;
+	margin: 15% 0 0 5%;
+	display: flex;
+	justify-content: center;
+}
+
+#trial1 img
+{
+ /* you have to go in and style each of these to certain positions on the screen*/
+}
+
+#trial2 img
+{
+ /* you have to go in and style each of these to certain positions on the screen*/
+}
+#trial3 img
+{
+ /* you have to go in and style each of these to certain positions on the screen*/
+}
+#trial4 img
+{
+ /* you have to go in and style each of these to certain positions on the screen*/
+}
+
+#trial5 img
+{
+ /* you have to go in and style each of these to certain positions on the screen*/
+}
+
+/* add after you put PDF into repo #trial6 img
+{
+ /* you have to go in and style each of these to certain positions on the screen
+}*/
+
+
+
+
 /* end of graphic design */
+
+/* start of footer*/
+
+/* end of footer*/
