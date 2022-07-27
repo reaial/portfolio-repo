@@ -166,12 +166,12 @@ nav ul a:hover
 	margin-top: 20px;
 }
 
-.content
+.hero
 {
 	text-align: center;
 }
 
-.content h1
+.hero h1
 {
 	font-size: 100px;
 	color: #fff;
@@ -179,7 +179,7 @@ nav ul a:hover
 	font-style: italic;
 }
 
-.content a
+.hero a
 {
 	display: inline-block;
 	color: #fff;
@@ -189,7 +189,7 @@ nav ul a:hover
 	margin-top: 20px;
 }
 
-.content a:hover
+.hero a:hover
 {
 		/*padding: 0x 10px;*/
 		background-color: #7b9e89;
@@ -342,8 +342,8 @@ padding-bottom: 160px;
 .photos .txt2
 {
 	position: relative;
-	width: 350px;
-	height:175px;
+	width: 475px;
+	height:350px;
 	left: 160px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
@@ -364,7 +364,8 @@ padding-bottom: 160px;
 
 .photos .txt2 .box2 p
 {
- font-size: 20px;
+ font-size: 32px;
+ weight:100;
 } /* all I wanted was to adjust size */
 
 /* end of photo */
