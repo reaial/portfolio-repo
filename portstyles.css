@@ -414,20 +414,26 @@ padding-bottom: 160px;
 
 .wb1 img
 {
+	float: left;
 
-	left: 150px;
 	top:0px;
-
 /* you have to go in and style each of these to certain positions on the screen*/
 }
 
 .wb2 img
 {
+		float: left;
+		justify-content: space-between;
+		padding-left: 50px;
+		/*top:0px;
  /* you have to go in and style each of these to certain positions on the screen*/
 }
 
 .wb3 img
 {
+	float: left;
+	justify-content: space-between;
+	padding-left: 50px;
  /* you have to go in and style each of these to certain positions on the screen*/
 }
 
