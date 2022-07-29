@@ -407,32 +407,32 @@ padding-bottom: 160px;
 	font-style: italic;
 }
 
-.content6 .txtgd
+.content6  .boxgd
 {
 	position: relative;
 	width: 450px;
 	height:250px;
-	left: 400px; /* this call shifted more to the right */
+ 	left:1000px; /* shift more right */
 	margin: 240px auto;
 	background-color: #7b9e89;
 }
 
-.content6 .txtgd .boxgd
+.content6 .boxgd
 {
 	position: relative;
 	width: 400;
 	height: 600;
 	background: 000;
 	float: left;
-	margin: 20px;
+	margin: 20px 20px;
 	box-sizing: border-box;
 	overflow: hidden;
 	border-radius: 10px;
 }
 
-.content6 .txtgd .boxgd p
+.content6 .boxgd p
 {
- font-size: 20px;
+ font-size: 18px;
 } /* all I wanted was to adjust size */
 
 
@@ -443,14 +443,14 @@ padding-bottom: 160px;
 	height: fit-content;
 	margin: 15% 0 0 5%;
 	display: flex;
-	justify-content: center;
+	left: 600px;
+	/*justify-content: center;*/
 }
 
 
 .wb1 img
 {
 	float: left;
-
 	top:0px;
 /* you have to go in and style each of these to certain positions on the screen*/
 }
@@ -492,6 +492,8 @@ padding-bottom: 160px;
 
 
 /* end of graphic design */
+
+
 
 /* start of footer*/
 
