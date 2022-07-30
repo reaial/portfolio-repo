@@ -390,12 +390,7 @@ padding-bottom: 160px;
 /* beginning of graphic design */
 .content6
 {
-	width: 90%;
-	margin: auto;
-	display: gird;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 20px;
-	text-align: center;
+
 }
 /* I need to figure out how to get the text to stay on the right and the photos be on the other sides. */
 
@@ -405,90 +400,19 @@ padding-bottom: 160px;
 	color: #fff;
 	font-weight: 300;
 	font-style: italic;
+	text-align: center;
 }
 
-.content6  .boxgd
+.content6 .textbox p
 {
 	position: relative;
-	width: 450px;
-	height:250px;
- 	left:1000px; /* shift more right */
+	width: 475px;
+	height:350px;
+	left: 500px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
+	/* this moved everything to the right for my text, but I need to figure out on how to get the photos on the same line */
 }
-
-.content6 .boxgd
-{
-	position: relative;
-	width: 400;
-	height: 600;
-	background: 000;
-	float: left;
-	margin: 20px 20px;
-	box-sizing: border-box;
-	overflow: hidden;
-	border-radius: 10px;
-}
-
-.content6 .boxgd p
-{
- font-size: 18px;
-} /* all I wanted was to adjust size */
-
-
-
-.design-container
-{
-	width: 90%;
-	height: fit-content;
-	margin: 15% 0 0 5%;
-	display: flex;
-	left: 600px;
-	/*justify-content: center;*/
-}
-
-
-.wb1 img
-{
-	float: left;
-	top:0px;
-/* you have to go in and style each of these to certain positions on the screen*/
-}
-
-.wb2 img
-{
-		float: left;
-		justify-content: space-between;
-		padding-left: 50px;
-		/*top:0px;
- /* you have to go in and style each of these to certain positions on the screen*/
-}
-
-.wb3 img
-{
-	float: left;
-	justify-content: space-between;
-	padding-left: 50px;
- /* you have to go in and style each of these to certain positions on the screen*/
-}
-
-.wb4 img
-{
- /* you have to go in and style each of these to certain positions on the screen*/
-}
-
-.wb5 img
-{
- /* you have to go in and style each of these to certain positions on the screen*/
-}
-
-
-/* add after you put PDF into repo .wb6 img
-{
- /* you have to go in and style each of these to certain positions on the screen
-}*/
-
-
 
 
 /* end of graphic design */
