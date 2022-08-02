@@ -324,11 +324,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: #fff;
-/*padding-top: 100px;*/
-padding-left: 40px;
-padding-bottom: 160px;
-
-/*this will create a circle for your images, this image will be stand still, copy this code and figure out how to create a cross dissolve for your photos*/
 }
 
 .photos img
@@ -337,13 +332,13 @@ padding-bottom: 160px;
  height: 400px;
  border-radius:50%;
  border: 10px solid #e6ccb2;
-}
+} 
 
 .photos .txt2
 {
 	position: relative;
-	width: 475px;
-	height:350px;
+	width: 375px;
+	height:250px;
 	left: 160px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
@@ -364,8 +359,7 @@ padding-bottom: 160px;
 
 .photos .txt2 .box2 p
 {
- font-size: 32px;
- weight:100;
+ font-size: 20px;
 } /* all I wanted was to adjust size */
 
 /* end of photo */
@@ -390,7 +384,7 @@ padding-bottom: 160px;
 /* beginning of graphic design */
 .content6
 {
-
+display: block;
 }
 /* I need to figure out how to get the text to stay on the right and the photos be on the other sides. */
 
@@ -406,15 +400,53 @@ padding-bottom: 160px;
 .content6 .textbox p
 {
 	position: relative;
-	width: 475px;
-	height:350px;
+	width: 375px;
+	height:250px;
 	left: 500px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
 	/* this moved everything to the right for my text, but I need to figure out on how to get the photos on the same line */
 }
 
+.content6 .graphics
+{
+	padding: 20px;
+	display: flex;
+	/*flex-direction: how do you make it so you have a 3x3? */
+}
 
+.content6 .graphics img
+{
+	display: grid;
+	margin: auto;
+	justify-content: space-between;
+	-webkit-animation: reveal 4s ease;
+	-webkit-animation-fill-mode: backwards;
+
+}
+@-webkit-keyframes reveal {
+    0%  {width: 0px;}
+		10% {width:5px;}
+}
+@keyframes reveal {
+    0%   {width: 0px;}
+		10%  {width:5px;}
+
+} /* fix this */
+
+.content6 .graphics2
+{
+	padding: 20px;
+	display: flex;
+
+}
+
+.content6 .graphics2 img
+{
+	display: grid;
+	margin: 2rem auto 2rem auto;
+	justify-content: space-between;
+}
 /* end of graphic design */
 
 
