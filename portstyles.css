@@ -70,7 +70,7 @@ table {
 }
 html
 {
-	scroll-behavior: smooth;
+	scroll-behavior: auto;
 }
 body
 {
@@ -399,27 +399,33 @@ display: block;
 	font-style: italic;
 	text-align: center;
 }
+.content6 .graphics
+{
+	padding: 80px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.content6 .graphics2
+{
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		justify-content: space-between;
+}
+
 
 .content6 .textbox p
 {
-	position: relative;
-	width: 375px;
+	justify-content: center;
+	width: 675px;
 	height:250px;
-	left: 500px; /* this call shifted more to the right */
-	margin: 240px auto;
+  font-size: 24px;
+	margin: 100px auto;
 	background-color: #7b9e89;
-	/* this moved everything to the right for my text, but I need to figure out on how to get the photos on the same line */
+	/* this moved everything to the right for my text, but I needto figure out on how to get the photos on the same line */
 }
-
-.content6 .graphics
-{
-	padding: 20px;
-	display: flex;
-}
-
-
-
-
 
 /* end of graphic design */
 
