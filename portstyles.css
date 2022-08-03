@@ -302,6 +302,7 @@ padding-left: 140px;
 	text-align: center;
 }
 
+
 /* end of video*/
 
 /* beginning of photo */
@@ -336,6 +337,8 @@ background-color: #fff;
  border-radius:50%;
  border: 10px solid #e6ccb2;
 }
+
+/* how do i get the image ontop of the other image*/
 
 .photos .txt2
 {
