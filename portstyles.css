@@ -329,6 +329,11 @@ justify-content: space-between;
 align-items: center;
 background-color: #fff;
 }
+.photos img
+{
+ -webkit-animation: reveal 4s ease;
+
+}
 
 /*.photos img
 {
