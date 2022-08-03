@@ -68,7 +68,10 @@ table {
 	font-family: sans-serif;
 
 }
-
+html
+{
+	scroll-behavior: smooth;
+}
 body
 {
 	background-color: #ddb892;
@@ -332,7 +335,7 @@ background-color: #fff;
  height: 400px;
  border-radius:50%;
  border: 10px solid #e6ccb2;
-} 
+}
 
 .photos .txt2
 {
