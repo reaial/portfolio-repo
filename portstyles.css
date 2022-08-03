@@ -330,13 +330,13 @@ align-items: center;
 background-color: #fff;
 }
 
-.photos img
+/*.photos img
 {
  width: 400px;
  height: 400px;
  border-radius:50%;
  border: 10px solid #e6ccb2;
-}
+}  took out the circle*/
 
 /* how do i get the image ontop of the other image*/
 
