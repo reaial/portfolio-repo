@@ -415,41 +415,12 @@ display: block;
 {
 	padding: 20px;
 	display: flex;
-	/*flex-direction: how do you make it so you have a 3x3? */
 }
 
-.content6 .graphics img
-{
-	display: grid;
-	margin: auto;
-	justify-content: space-between;
-	-webkit-animation: reveal 4s ease;
-	-webkit-animation-fill-mode: backwards;
 
-}
-@-webkit-keyframes reveal {
-    0%  {width: 0px;}
-		10% {width:5px;}
-}
-@keyframes reveal {
-    0%   {width: 0px;}
-		10%  {width:5px;}
 
-} /* fix this */
 
-.content6 .graphics2
-{
-	padding: 20px;
-	display: flex;
 
-}
-
-.content6 .graphics2 img
-{
-	display: grid;
-	margin: 2rem auto 2rem auto;
-	justify-content: space-between;
-}
 /* end of graphic design */
 
 
