@@ -329,11 +329,34 @@ justify-content: space-between;
 align-items: center;
 background-color: #fff;
 }
-.photos img
+
+/*.hgInner img
 {
  -webkit-animation: reveal 4s ease;
+}*/
 
+.hgInner
+{
+  position: absolute;
+  height: 100%;
+  width: 855px;
+  overflow: hidden;
+  -webkit-animation: reveal 8s ease;
+  -webkit-animation-fill-mode: backwards;
 }
+
+@-webkit-keyframes reveal
+{
+    0%   {width: 0px;}
+    100% { width: 40%;}
+}
+
+@keyframes reveal
+{
+    0%   {width: 0px;}
+    100% { width: 40%;}
+}
+
 
 /*.photos img
 {
@@ -366,6 +389,7 @@ background-color: #fff;
 	box-sizing: border-box;
 	overflow: hidden;
 	border-radius: 10px;
+	justify-content: center;
 }
 
 .photos .txt2 .box2 p
