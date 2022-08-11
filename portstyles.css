@@ -340,22 +340,28 @@ background-color: #fff;
   position: absolute;
   height: 100%;
   width: 855px;
-  overflow: hidden;
+	margin-top: 65vh;
+  /*overflow: hidden;
   -webkit-animation: reveal 8s ease;
-  -webkit-animation-fill-mode: backwards;
+  -webkit-animation-fill-mode: backwards;*/
 }
 
-@-webkit-keyframes reveal
+#bgm
 {
-    0%   {width: 0px;}
-    100% { width: 40%;}
+ margin-right: 100px;
+}
+
+/*@-webkit-keyframes reveal
+{
+    0%   {width: 10px;}
+    100% { width: 20%;}
 }
 
 @keyframes reveal
 {
-    0%   {width: 0px;}
-    100% { width: 40%;}
-}
+    0%   {width: 10px;}
+    100% { width: 20%;}
+} */
 
 
 /*.photos img
@@ -373,7 +379,7 @@ background-color: #fff;
 	position: relative;
 	width: 375px;
 	height:250px;
-	left: 160px; /* this call shifted more to the right */
+	left: 360px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
 }
