@@ -470,12 +470,15 @@ display: block;
 
 
 /* start of footer*/
-#footer
+.footer
 {
 	background-color: #fff;
 	position: relative;
 	height: 100px;
 	justify-content: center;
+	justify-content: space-between;
+	display:flex;
+
 }
 
 
