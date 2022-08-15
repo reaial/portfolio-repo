@@ -263,30 +263,9 @@ padding-left: 140px;
 .image .txt .box p
 {
  font-size: 20px;
-} /* all I wanted was to adjust size */
-
-/*.image .txt .box .cover
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #7b9e89;
-	transition: 0.5s;
-	z-index: 1;
 }
-.image .txt .box:hover .cover
-{
-	top: 20px;
-	left: calc(50% - 40px);
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-}  leaving this here for when you figure out the hover feature*/
 
-
-/* end of about me */
+/* end of about me*/
 
 /* beginning of video */
 
@@ -305,22 +284,23 @@ padding-left: 140px;
 
 iframe
 {
-	margin-right: 800px;
+	right: 800px;
 	margin-top: 100px;
 }
-
-.content3 .txt2
+ .txt3
 {
-	position: relative;
-	width: 375px;
-	height:350px;
-	left: 360px;
-	margin: 400px auto;
-	background-color: #7b9e89;
+		position: relative;
+		width: 450px;
+		height:320px;
+		left: 5px; /* this call shifted more to the right */
+		justify-content: center;
+		margin: 240px auto;
+		background-color: #7b9e89;
 }
 
-.content3 .txt2 .box2
+ .txt3 .box3
 {
+	position: relative;
 	width: 400;
 	height: 600;
 	background: 000;
@@ -328,10 +308,10 @@ iframe
 	margin: 20px;
 	box-sizing: border-box;
 	overflow: hidden;
-	justify-content: space-around;
+	border-radius: 10px;
 }
 
-.content3 .txt2 .box2 p
+.content3 .txt3 .box3 p
 {
  font-size: 20px;
 }
