@@ -242,7 +242,7 @@ padding-left: 140px;
 	position: relative;
 	width: 450px;
 	height:250px;
-	left: 160px; /* this call shifted more to the right */
+	left: 130px; /* this call shifted more to the right */
 	margin: 240px auto;
 	background-color: #7b9e89;
 }
