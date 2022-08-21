@@ -10,7 +10,7 @@ Look at protoype for reference this will help you know what CSS you need to code
    License: none (public domain)
 */
 
-/*html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -333,71 +333,26 @@ iframe
 	text-align: center;
 }
 
-.photos
+.text
 {
 width: 100%;
 height: 100vh;
 display: flex;
-justify-content: space-between;
 align-items: center;
 background-color: #fff;
 }
 
-/*.hgInner img
-{
- -webkit-animation: reveal 4s ease;
-}*/
-
-.hgInner
-{
-  position: absolute;
-  height: 100%;
-  width: 855px;
-	margin-top: 65vh;
-  /*overflow: hidden;
-  -webkit-animation: reveal 8s ease;
-  -webkit-animation-fill-mode: backwards;*/
-}
-
-#bgm
-{
- margin-right: 100px;
-}
-
-/*@-webkit-keyframes reveal
-{
-    0%   {width: 10px;}
-    100% { width: 20%;}
-}
-
-@keyframes reveal
-{
-    0%   {width: 10px;}
-    100% { width: 20%;}
-} */
-
-
-/*.photos img
-{
- width: 400px;
- height: 400px;
- border-radius:50%;
- border: 10px solid #e6ccb2;
-}  took out the circle*/
-
-/* how do i get the image ontop of the other image*/
-
-.photos .txt2
+.text .txt2
 {
 	position: relative;
 	width: 375px;
 	height:250px;
-	left: 360px; /* this call shifted more to the right */
-	margin: 240px auto;
+	left: 10px; /* this call shifted more to the right */
+	margin: auto;
 	background-color: #7b9e89;
 }
 
-.photos .txt2 .box2
+.text .txt2 .box2
 {
 	position: relative;
 	width: 400;
@@ -405,17 +360,20 @@ background-color: #fff;
 	background: 000;
 	float: left;
 	margin: 20px;
-	box-sizing: border-box;
 	overflow: hidden;
-	border-radius: 10px;
 	justify-content: center;
 }
 
-.photos .txt2 .box2 p
+.text .txt2 .box2 p
 {
  font-size: 20px;
-} /* all I wanted was to adjust size */
+}
 
+.photos
+{
+background-color: #fff;
+padding-bottom: 100px;
+}
 /* end of photo */
 
 /* beginning of web development
