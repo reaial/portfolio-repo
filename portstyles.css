@@ -4,11 +4,13 @@
 
 *
 {
-	text-decoration: none;
+	text-decoration: none !important;
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 }
+
+
 
 html
 {
@@ -88,7 +90,7 @@ position: center;
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
-}
+} */
 
 
 .nav nav ul li
@@ -195,7 +197,7 @@ justify-content: space-between;
 }
 
 
-.image img
+.content2 .image img
 {
  width:95%;
  height: 95%;
@@ -303,13 +305,37 @@ iframe
 {
 	font-size: 100px;
 	color: #fff;
-	font-weight: 300;
-	font-style: italic;
+	font-weight: 600;
+	font-style: italic !important;
+	text-align: center !important;
+	justify-content: space-between;
+
+}
+@media only screen and (min-width: 300px) and (max-width: 600px)
+{
+	.content4 h1
+	{
+		font-size: 50px;
+		font-weight: 600;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 900px)
+{
+ .content4 h1
+ {
+	 font-size: 85px;
+	 font-weight: 600;
+ }
 }
 
 .content4
 {
 	text-align: center;
+}
+
+.content4 .image
+{
+	height:50%;
 }
 
 .text
@@ -348,93 +374,45 @@ background-color: #fff;
 .photos
 {
 background-color: #fff;
-padding-bottom: 100px;
+/*padding-bottom: 100px; */
 }
 /* end of photo */
 
-/* beginning of web development
-
-.content5 h1
-{
-	font-size: 100px;
-	color: #fff;
-	font-weight: 300;
-	font-style: italic;
-}
-
-.content5
-{
-	text-align: center;
-}
-
- end of web development */
 
 /* beginning of graphic design */
-.content6
-{
-display: block;
-}
-/* I need to figure out how to get the text to stay on the right and the photos be on the other sides. */
 
-.content6 h1
+  h3
 {
-	font-size: 100px;
+	display: block;
+	font-size: 50px !important;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 600 !important;
 	font-style: italic;
-	text-align: center;
+	text-align: center !important;
 }
-.content6 .graphics
+
+/* start of graphic design */
+
+.btn
 {
-	padding: 80px;
-	display: flex;
-	justify-content: center;
-	justify-content: space-between;
+	color: #e6ccb4 !important;
+	background-color: #b08968 !important;
 }
-
-.content6 .graphics2
-{
-		padding: 20px;
-		display: flex;
-		justify-content: center;
-		justify-content: space-between;
-}
-
-
-.content6 .textbox p
-{
-	justify-content: center;
-	width: 375px;
-	height:200px;
-  font-size: 20px;
-	margin: 100px auto;
-	background-color: #7b9e89;
-	/* this moved everything to the right for my text, but I needto figure out on how to get the photos on the same line */
-}
-
-/* end of graphic design */
-
 
 
 /* start of footer*/
+
+
 .footer
 {
-	background-color: #e6ccb2;
-	position: relative;
+	background-color: #e6ccb4 !important;
 	height: 100px;
-	justify-content: center;
-	justify-content: space-between;
-	display:flex;
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 24px;
-	font-weight: 10;
 }
 
 .socials
 {
-	height: 100px;
-	width: 100px;
+	height: 50px;
+	width: 50px;
 }
 
-/* end of footer*/
+ /*end of footer*/
