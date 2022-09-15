@@ -203,20 +203,12 @@ justify-content: space-between;
 	 border: 10px solid #e6ccb2;
  }
 
-/*.content2 .image img
-{
- width:95%;
- height: 95%;
- border-radius:50%;
- border: 10px solid #e6ccb2;
- /*justify-content: center;
-}*/
 
 #abouttext
 {
 		/*position: relative;*/
 		width: 100%;
-		height:50%;
+		height:100%;
 		/*left: 130px;*/
 		justify-content: space-between;
 		text-align: center;
@@ -249,7 +241,7 @@ justify-content: space-between;
 
 .image .txt .box p
 {
- font-size: 20px;
+ font-size: 40px;
 }
 
 /* end of about me*/
@@ -284,12 +276,24 @@ justify-content: space-between;
 	 font-weight: 600;
  }
 }
+#vidtext
+{
+		/*position: relative;*/
+		width: 100%;
+		height:50%;
+		/*left: 130px;*/
+		justify-content: space-between;
+		text-align: center;
+		background-color: #7b9e89 !important;
 
- .txt3
+}
+
+
+/*.txt3
 {
 width: 100%;
 height:100%;
-/*left: 130px;*/
+/*left: 130px;
 justify-content: space-between;
 background-color: #7b9e89;
 }
@@ -303,9 +307,9 @@ background-color: #7b9e89;
 		box-sizing: border-box;
 		overflow: hidden;
 		border-radius: 10px;
-}
+}*/
 
-.content3 .txt3 .box3 p
+.content3  p
 {
  font-size: 20px;
 }
@@ -356,16 +360,16 @@ iframe
 	height:50%;
 }
 
-.text
+/*.text
 {
 width: 100%;
 height: 100vh;
 display: flex;
 align-items: center;
 background-color: #fff;
-}
+}*/
 
-.text .txt2
+ .txt
 {
 	width: 375px;
 	height:365px;
@@ -373,7 +377,7 @@ background-color: #fff;
 	background-color: #7b9e89;
 }
 
-.text .txt2 .box2
+ .txt .box
 {
 	width: 400;
 	height: 600;
@@ -383,8 +387,7 @@ background-color: #fff;
 	overflow: hidden;
 	justify-content: center;
 }
-
-.text .txt2 .box2 p
+ .txt .box p
 {
  font-size: 20px;
 }
