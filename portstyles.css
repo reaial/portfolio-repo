@@ -160,7 +160,7 @@ position: center;
 	color: #fff;
 	font-weight: 600;
 	font-style: italic;
- text-align: center;
+ 	text-align: center;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px)
